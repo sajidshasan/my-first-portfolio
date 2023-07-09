@@ -110,3 +110,153 @@ button {
     justify-content: space-around;
     align-items: center;
 }
+
+/* -------
+about me section
+-------------- */
+.about-me {
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 130px 250px;
+}
+
+.about-me-header,
+.what-i-do-title,
+.summary-header {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me-description,
+.what-i-do-description {
+    margin: 30px 0px;
+    color: var #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.about-me-infos {
+    display: flex;
+    justify-content: space-around;
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.details {
+    color: #474747;
+    font-weight: bolder;
+}
+
+/* ------------------
+what i do section
+------------------ */
+.what-i-do {
+    margin: 0px 130px;
+}
+
+.what-i-do-description {
+    margin: 30px 115px 50px;
+}
+
+.what-i-do-expertises {
+    display: flex;
+    justify-content: space-around;
+}
+
+.expertise {
+
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-right: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.expertise-header {
+    margin: 30px 0px;
+}
+
+/* ---------------
+summary section
+--------------- */
+.summary {
+    margin: 130px 230px 110px;
+}
+
+.summary-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary-section {
+    margin-top: 110px;
+    display: flex;
+    text-align: left;
+
+}
+.education{
+    margin-right: 24px;
+}
+
+.summary-header {
+    text-align: left;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-bottom: 30px;
+}
+
+.study-header,
+.experience-header {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.study-university,
+.experience-institute {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px 0px;
+}
+
+.study-description,
+.experience-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.btn3{
+    margin: 70px auto 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
