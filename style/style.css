@@ -115,10 +115,10 @@ button {
 about me section
 -------------- */
 .about-me {
-    margin: 130px 230px;
+    margin: 130px 180px;
     background-color: #FFF8F3;
     text-align: center;
-    padding: 130px 250px;
+    padding: 130px 130px;
 }
 
 .about-me-header,
@@ -211,7 +211,8 @@ summary section
     text-align: left;
 
 }
-.education{
+
+.education {
     margin-right: 24px;
 }
 
@@ -253,10 +254,77 @@ summary section
     font-weight: 400;
     line-height: 28px;
 }
-.btn3{
+
+.btn3 {
     margin: 70px auto 130px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+/* ------------
+footer section
+------------------*/
+.footer {
+
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    justify-content: center;
+
+    column-gap: 120px;
+}
+.footer-header{
+    align-content: flex-start;
+    color: #181818;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-header2{
+    text-align: left;
+}
+.footer-description{
+    margin: 20px 0px 30px;
+}
+.footer-link a{
+margin-right: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer section {
+    width: 100%;
+}
+
+form input {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    height: 64px;
+}
+
+form input[type=email] {
+    margin: 24px 0px;
+
+}
+
+form textarea {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+}
+.btn4{
+    width: min-content;
+    margin-top: 24px;
+    padding: 18px 40px;
+}
+form input, textarea{
+    width: 100%;
 }
